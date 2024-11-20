@@ -1,0 +1,68 @@
+/* Infographic Styles */
+.infographic {
+  @apply my-8 p-6 bg-gray-50 rounded-xl border border-gray-200;
+}
+
+.infographic h3 {
+  @apply text-xl font-semibold mb-6 text-center;
+}
+
+.grid-3 {
+  @apply grid md:grid-cols-3 gap-6;
+}
+
+.grid-4 {
+  @apply grid md:grid-cols-2 lg:grid-cols-4 gap-6;
+}
+
+.info-item {
+  @apply flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow;
+}
+
+.info-item .icon {
+  @apply text-3xl mb-3;
+}
+
+.info-item h4 {
+  @apply font-semibold mb-2;
+}
+
+.info-item p {
+  @apply text-gray-600 text-sm;
+}
+
+/* Blog Content Styles */
+.blog-content a {
+  @apply text-primary hover:text-primary-dark border-b-2 border-primary border-opacity-20 hover:border-opacity-100 transition-all;
+}
+
+.blog-content a[href^="/"] {
+  @apply inline-flex items-center;
+}
+
+.blog-content a[href^="/"]::after {
+  content: "→";
+  @apply ml-1 text-primary-dark opacity-75;
+}
+
+/* Related Content Box */
+.related-content {
+  @apply my-8 p-6 bg-primary bg-opacity-5 rounded-xl border border-primary border-opacity-20;
+}
+
+.related-content h3 {
+  @apply text-lg font-semibold mb-4 text-primary;
+}
+
+.related-content ul {
+  @apply space-y-3;
+}
+
+.related-content li {
+  @apply flex items-center;
+}
+
+.related-content li::before {
+  content: "→";
+  @apply mr-2 text-primary;
+}
