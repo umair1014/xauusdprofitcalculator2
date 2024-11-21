@@ -40,6 +40,10 @@ export function MarginCalculator() {
 
   return (
     <div className="max-w-4xl mx-auto">
+      <Helmet>
+        <title>Gold Trading Margin Calculator | XAUUSD Position Size Tool</title>
+        <meta name="description" content="Calculate required margin and position sizes for your XAUUSD trades. Our gold margin calculator helps you manage risk and leverage effectively." />
+      </Helmet>
       <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
         <h1 className="text-3xl font-bold mb-6 text-center">XAUUSD Margin Calculator</h1>
         <p className="text-gray-600 mb-8 text-center">
