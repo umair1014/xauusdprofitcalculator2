@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import { Calculator as CalcIcon, RotateCcw } from 'lucide-react';
 
 export function PipCalculator() {
@@ -38,6 +39,15 @@ export function PipCalculator() {
 
   return (
     <div className="max-w-4xl mx-auto">
+      {/* Meta Tags */}
+      <Helmet>
+        <title>XAUUSD Pip Calculator | Gold Trading Tool</title>
+        <meta
+          name="description"
+          content="Use our XAUUSD Pip Calculator to estimate your potential profit or loss in gold trading based on pip movements. Simple, accurate, and beginner-friendly!"
+        />
+      </Helmet>
+
       <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
         <h1 className="text-3xl font-bold mb-6 text-center">XAUUSD Pip Calculator</h1>
         <p className="text-gray-600 mb-8 text-center">
