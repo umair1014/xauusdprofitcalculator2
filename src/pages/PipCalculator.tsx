@@ -41,10 +41,10 @@ export function PipCalculator() {
     <div className="max-w-4xl mx-auto">
       {/* Meta Tags */}
       <Helmet>
-        <title>XAUUSD Pip Calculator | Gold Trading Tool</title>
+        <title>XAUUSD Pip Calculator | Calculate Gold Trading Profits</title>
         <meta
           name="description"
-          content="Use our XAUUSD Pip Calculator to estimate your potential profit or loss in gold trading based on pip movements. Simple, accurate, and beginner-friendly!"
+          content="Use the XAUUSD Pip Calculator to estimate your potential profits or losses in gold trading. Accurate, easy-to-use tool for traders of all levels."
         />
       </Helmet>
 
